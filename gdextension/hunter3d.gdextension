@@ -1,0 +1,12 @@
+[configuration]
+entry_symbol = "hunter3d_library_init"
+compatibility_minimum = 4.2
+compatibility_rendering = 4.2
+
+[libraries]
+windows.x86_64.debug = "res://bin/hunter3d.windows.debug.x86_64.dll"
+windows.x86_64.release = "res://bin/hunter3d.windows.release.x86_64.dll"
+linux.x86_64.debug = "res://bin/hunter3d.linux.debug.x86_64.so"
+linux.x86_64.release = "res://bin/hunter3d.linux.release.x86_64.so"
+macos.debug = "res://bin/hunter3d.macos.debug.framework"
+macos.release = "res://bin/hunter3d.macos.release.framework"
